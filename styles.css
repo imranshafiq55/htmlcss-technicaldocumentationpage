@@ -1,0 +1,17 @@
+body{
+    background-color: gray;
+    color: darkgreen;
+  }
+  a{
+    text-decoration: none;
+    color: green;
+  }
+  ul li{
+    list-style: none;
+  }
+  @media only screen and (min-width: 769px) and (max-width: 1024px){
+    #navbar{
+      position: fixed;
+      align-content: left;
+    }
+  }
